@@ -34,9 +34,6 @@ typedef enum {
 @property (nonatomic, strong) NSNumber *borderRadius UI_APPEARANCE_SELECTOR;
 
 @property (nonatomic) NSTextAlignment textAlignment;
-@property (nonatomic, strong) UIColor *textColor;
-@property (nonatomic, strong) NSString *text;
-
 @property (nonatomic) LDProgressType type;
 
 - (void)overrideProgressText:(NSString *)progressText;
